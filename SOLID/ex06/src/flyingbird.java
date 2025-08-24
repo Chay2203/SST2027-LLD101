@@ -1,9 +1,9 @@
-public class flyingbird extends bird implements flyable{
-    public flyingbird(){
+public class FlyingBird extends Bird implements flyable{
+    public FlyingBird(){
         super("Flying Bird");
     }
     
-    public flyingbird(String name){
+    public FlyingBird(String name){
         super(name);
     }
     

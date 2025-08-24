@@ -1,9 +1,9 @@
-public class aviary{
+public class Aviary{
     public void release(flyable bird){
         bird.fly();
         System.out.println("Released flying bird");
     }
-    public void release(bird bird){
+    public void release(Bird bird){
         bird.makeSound();
         System.out.println("Released bird");
     }

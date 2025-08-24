@@ -1,6 +1,6 @@
 public class Demo08{
     public static void main(String[] args){
-        pedalpowered bike=new Bicycle();
+        PedalPowered bike=new Bicycle();
         bike.pedal(10);        
         Car car=new Car();
         car.startengine();

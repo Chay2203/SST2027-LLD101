@@ -1,4 +1,4 @@
-public class Car implements enginepowered, rechargeable{
+public class Car implements EnginePowered, Rechargeable{
     public void startengine(){
         System.out.println("Engine started");
     }

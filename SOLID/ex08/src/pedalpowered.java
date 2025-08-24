@@ -1,3 +1,3 @@
-public interface pedalpowered{
+public interface PedalPowered{
     void pedal(int effort);
 }

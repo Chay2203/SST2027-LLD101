@@ -1,3 +1,3 @@
-public interface enginepowered{
+public interface EnginePowered{
     void startengine();
 }

@@ -1,5 +1,5 @@
-public class penguin extends bird{
-    public penguin(){
+public class Penguin extends Bird{
+    public Penguin(){
         super("Penguin");
     }
     public void swim(){

@@ -1,3 +1,3 @@
-public interface orderrepository{
+public interface OrderRepository{
     void save(String id);
 }

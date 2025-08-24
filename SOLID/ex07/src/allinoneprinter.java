@@ -1,4 +1,4 @@
-public class allinoneprinter implements printable, scannable, faxable{
+public class AllInOnePrinter implements Printable, Scannable, Faxable{
     public void print(String text){
         System.out.println("Print: "+text);
     }    

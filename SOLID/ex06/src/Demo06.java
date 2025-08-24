@@ -1,13 +1,13 @@
 public class Demo06{
     public static void main(String[] args){
-        bird penguin=new penguin();
-        penguin.walk();
+        Bird penguin=new Penguin();
+        penguin.makeSound();
         
-        flyingbird eagle=new flyingbird();
-        eagle.walk();
+        FlyingBird eagle=new FlyingBird("Eagle");
+        eagle.makeSound();
         eagle.fly();
         
-        aviary av=new aviary();
-        av.makebirdfly(eagle);
+        Aviary av=new Aviary();
+        av.release(eagle);
     }
 }

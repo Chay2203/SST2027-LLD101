@@ -1,4 +1,4 @@
-public class printscanner implements printable, scannable{
+public class PrintScanner implements Printable, Scannable{
     public void print(String text){
         System.out.println("Print: "+text);
     }

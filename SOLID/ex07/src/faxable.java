@@ -1,3 +1,3 @@
-public interface faxable{
+public interface Faxable{
     void fax(String number);
 }

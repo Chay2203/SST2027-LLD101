@@ -1,11 +1,11 @@
 public class Demo09{
     public static void main(String[] args){
-        orderrepository sqlrepo=new sqlorderrepository();
-        ordercontroller sqlcontroller=new ordercontroller(sqlrepo);
+        OrderRepository sqlrepo=new SQLOrderRepository();
+        OrderController sqlcontroller=new OrderController(sqlrepo);
         sqlcontroller.process("order123");
         
-        orderrepository memoryrepo=new memoryorderrepository();
-        ordercontroller memorycontroller=new ordercontroller(memoryrepo);
+        OrderRepository memoryrepo=new MemoryOrderRepository();
+        OrderController memorycontroller=new OrderController(memoryrepo);
         memorycontroller.process("order456");
     }
 }

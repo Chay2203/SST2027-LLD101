@@ -1,3 +1,3 @@
-public interface printable{
+public interface Printable{
     void print(String text);
 }

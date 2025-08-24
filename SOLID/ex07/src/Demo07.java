@@ -1,12 +1,12 @@
 public class Demo07{
     public static void main(String[] args){
-        printable basic=new BasicPrinter();
+        Printable basic=new BasicPrinter();
         basic.print("Hello");
-        allinoneprinter allinone=new allinoneprinter();
+        AllInOnePrinter allinone=new AllInOnePrinter();
         allinone.print("Document");
         allinone.scan("/tmp/out");
         allinone.fax("999-999-9999");
-        printscanner scanner=new printscanner();
+        PrintScanner scanner=new PrintScanner();
         scanner.print("Report");
         scanner.scan("/documents/");
     }

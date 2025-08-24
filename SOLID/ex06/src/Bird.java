@@ -1,9 +1,9 @@
-public class bird{
+public class Bird{
     protected String name;
-    public bird(){
+    public Bird(){
         this.name="Bird";
     }  
-    public bird(String name){
+    public Bird(String name){
         this.name=name;
     }
     public void makeSound(){

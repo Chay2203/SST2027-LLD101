@@ -1,6 +1,6 @@
-public class demo07{
+public class Demo07{
     public static void main(String[] args){
-        printable basic=new basicprinter();
+        printable basic=new BasicPrinter();
         basic.print("Hello");
         allinoneprinter allinone=new allinoneprinter();
         allinone.print("Document");

@@ -1,4 +1,4 @@
-public class rectangle implements shape{
+public class Rectangle implements shape{
     private int width;
     private int height;
     

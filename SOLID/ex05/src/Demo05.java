@@ -1,8 +1,8 @@
-public class demo05{
+public class Demo05{
     public static void main(String[] args){
-        System.out.println(areacalculator.areaafterresize(new rectangle(),5,4)); 
-        System.out.println(areacalculator.areaafterresize(new square(),4,4));   
-        System.out.println(areacalculator.areaafterresize(new rectangle(),3,6));
-        System.out.println(areacalculator.areaafterresize(new square(),5,5));    
+        System.out.println(areacalculator.areaafterresize(new Rectangle(),5,4)); 
+        System.out.println(areacalculator.areaafterresize(new Square(),4,4));   
+        System.out.println(areacalculator.areaafterresize(new Rectangle(),3,6));
+        System.out.println(areacalculator.areaafterresize(new Square(),5,5));    
     }
 }

@@ -5,6 +5,6 @@ public class demo{
         orderstorage store = new orderstorage();
         
         orderservice service = new orderservice(calc, email, store);
-        service.checkout("a@shop.com", 100.0);
+        service.checkout("tommy@shop.com", 100.0);
     }
 }

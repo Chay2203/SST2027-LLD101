@@ -1,4 +1,4 @@
-public class FlyingBird extends Bird implements flyable{
+public class FlyingBird extends Bird implements Flyable{
     public FlyingBird(){
         super("Flying Bird");
     }

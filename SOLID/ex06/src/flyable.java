@@ -1,3 +1,3 @@
-public interface flyable{
+public interface Flyable{
     void fly();
 }

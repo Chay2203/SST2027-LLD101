@@ -1,12 +1,12 @@
-public class OrderController{
-    private OrderRepository repository;
+public class ordercontroller{
+    private orderrepository repository;
     
-    public OrderController(OrderRepository repository){
+    public ordercontroller(orderrepository repository){
         this.repository=repository;
     }
     
-    public void process(String id){
-        System.out.println("Processing order "+id);
+    void create(String id){
         repository.save(id);
+        System.out.println("Created order: "+id);
     }
-}
+} 

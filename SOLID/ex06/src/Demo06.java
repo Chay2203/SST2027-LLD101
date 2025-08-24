@@ -1,13 +1,11 @@
-public class Demo06{
+public class demo06{
     public static void main(String[] args){
-        Bird penguin=new Penguin();
-        penguin.makeSound();
+        aviary aviary=new aviary();        
+        flyingbird sparrow=new flyingbird("Sparrow");
+        aviary.release(sparrow);
         
-        FlyingBird eagle=new FlyingBird("Eagle");
-        eagle.makeSound();
-        eagle.fly();
-        
-        Aviary av=new Aviary();
-        av.release(eagle);
+        penguin penguin=new penguin();
+        aviary.release(penguin);        
+        penguin.swim();
     }
-}
+} 
